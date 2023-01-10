@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+body {
+  font-family: "PT Sans", sans-serif;
+
+  max-height: 100vh;
+
+  &.overflow__hidden {
+    overflow: hidden;
+  }
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  width: 100%;
+  height: 50px;
+
+  color: $white;
+
+  background-color: $black;
+  border-radius: 8px;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $grey;
+  }
+
+  &:active {
+    background-color: $grey-light;
+  }
+}
